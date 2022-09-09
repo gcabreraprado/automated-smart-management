@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ HOSTS | default('satellite.example.com') }}"
+- hosts: "{{ HOSTS | default('https://satellite.sandbox1559.opentlc.com/') }}"
   become: true
   vars:
     disconnected_mode: "true"
